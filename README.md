@@ -1,0 +1,1 @@
+All the files needed to start developing a simple website.

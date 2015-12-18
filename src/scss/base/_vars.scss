@@ -1,0 +1,45 @@
+// Colors
+
+// Functionnal Colors
+// $color-prim         : 
+// $color-sec          : 
+
+// $color-text-light   : 
+// $color-text-base    : 
+// $color-text-dark    : 
+
+// $color-border-light : 
+// $color-border-dark  : 
+
+// $color-link-default : 
+// $color-link-visited : 
+
+// $color-shadow       : 
+// $color-body         : 
+
+
+// Font Stacks
+ $stack-sans-serif	: Helvetica, Arial, sans-serif;
+ $stack-serif 		: 'Times New Roman', Times, serif;
+
+ // Media Query Breakpoints
+ $brk-narrow 	: '(max-width:768px)';
+ $brk-wide 		: '(max-width:1024px)';
+
+ // Asset path
+ $img_path: '/img';
+
+ // Mixins
+ @mixin transition($length) {
+ 	-webkit-transition: all $length ease-out;
+	-moz-transition: all $length ease-out;
+	-ms-transition: all $length ease-out;
+	-o-transition: all $length ease-out;
+	transition: all $length ease-out;
+ }
+
+ @mixin border-radius($radius) {
+ 	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+ } 
