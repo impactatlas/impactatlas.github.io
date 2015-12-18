@@ -32,5 +32,6 @@ module.exports = {
 
 ## Deployment
 This is automated. Add your SSH key to authorized_keys on the server (with amplifier1 user)
+
 + Add the production remote: `git remote add production amplifier1@impactatlas.org:/home/amplifier1/git/impactatlas.org/.git`
 + to deploy, use `git push production master`
