@@ -4,7 +4,7 @@ echo "######### Auto Deployment #########"
 echo "###################################"
 
 # Variables
-TARGETDIR=/home/amplifier1/livinggoods.amplifierstrategies.com
+TARGETDIR=/home/amplifier1/impactatlas.org
 BACKUPDIR=/home/amplifier1/backups
 
 #extracting the site name as a variable, reverse before and after cut. 
