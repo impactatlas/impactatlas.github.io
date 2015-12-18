@@ -5,8 +5,6 @@ A complete monitoring & evaluation, project management & reporting platform for 
 enable the entire global community of implementers, donors and researchers to transform data into information, and use
 that information to fuel decision-making. Developed by Amplifier Strategy.
 
-*Note: These instructions presume OS X ( homebrew ) and MAMP ( config: socketPath ).* 
-
 ## Pre-requesites 
 + git [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]
 + npm (suppossed to be included in node) [package manager https://docs.npmjs.com/getting-started/what-is-npm]
