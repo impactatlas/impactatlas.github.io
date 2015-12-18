@@ -7,7 +7,7 @@ that information to fuel decision-making. Developed by Amplifier Strategy.
 
 ## Pre-requesites 
 + git [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]
-+ npm (suppossed to be included in node) [package manager https://docs.npmjs.com/getting-started/what-is-npm]
++ npm [package manager https://docs.npmjs.com/getting-started/what-is-npm]
 + grunt [used for compilinig SASS to CSS and run front-end tests http://gruntjs.com/getting-started]
 
 ## Installation
