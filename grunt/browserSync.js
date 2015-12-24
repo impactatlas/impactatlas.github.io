@@ -5,7 +5,7 @@ module.exports = {
     },
     options: {
       watchTask: true,
-      proxy: "836m:8888"
+      proxy: "impactatlas.dev:8888"
     }
   }
 }

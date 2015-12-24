@@ -1,25 +1,39 @@
 // Colors
 
 // Functionnal Colors
-// $color-prim         : 
+$color-prim         : #617ba0;
 // $color-sec          : 
 
 // $color-text-light   : 
-// $color-text-base    : 
+ $color-text-base    : #3c3c3c;
 // $color-text-dark    : 
 
 // $color-border-light : 
 // $color-border-dark  : 
 
-// $color-link-default : 
+$color-link-default : #98b559;
 // $color-link-visited : 
 
 // $color-shadow       : 
 // $color-body         : 
 
+// Fonts
+@font-face {
+  font-family: "proximanova-reg";
+  src: url('/fonts/ProximaNova-Reg.otf') format('opentype');
+ }
+@font-face {
+  font-family: "proximanova-light";
+  src: url('/fonts/ProximaNova-Light.otf') format('opentype');
+ }
+ @font-face {
+  font-family: "proximanova-sbold";
+  src: url('/fonts/ProximaNova-Sbold.otf') format('opentype');
+ }
+
 
 // Font Stacks
- $stack-sans-serif	: Helvetica, Arial, sans-serif;
+ $stack-sans-serif	: 'proximanova-reg', Helvetica, Arial, sans-serif;
  $stack-serif 		: 'Times New Roman', Times, serif;
 
  // Media Query Breakpoints
@@ -43,3 +57,7 @@
 	-moz-border-radius: $radius;
 	border-radius: $radius;
  } 
+
+ .center {
+ 	text-align: center;
+ }
