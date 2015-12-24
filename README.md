@@ -29,3 +29,11 @@ module.exports = {
   }
 }
 ```
+
+## Deployment
+This is automated. Add your SSH key to authorized_keys on the server (with amplifier1 user)
+
++ Add the production remote: `git remote add production amplifier1@impactatlas.org:/home/amplifier1/git/impactatlas.org/.git`
++ to deploy, use `git push production master`
+
+*The automatic deployment is done through a deploy hook (`git/hooks/post-receive`). It will backup the current version of the website, and store it  in the `backup/name-of-project` folder on the server. The new files from the `dist/` folder will be copied in the production folder and be served to users.*
