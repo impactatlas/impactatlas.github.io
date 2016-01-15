@@ -37,3 +37,6 @@ This is automated. Add your SSH key to authorized_keys on the server (with ampli
 + to deploy, use `git push production master`
 
 *The automatic deployment is done through a deploy hook (`git/hooks/post-receive`). It will backup the current version of the website, and store it  in the `backup/name-of-project` folder on the server. The new files from the `dist/` folder will be copied in the production folder and be served to users.*
+
+## Test
+Login to `www.impactatlas.org` with user: `amp`, password: `letmeinnow`
