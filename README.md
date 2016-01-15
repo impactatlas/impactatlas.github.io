@@ -40,5 +40,7 @@ This is automated. Add your SSH key to authorized_keys on the server (with ampli
 
 ## Test
 Login to `www.impactatlas.org` 
+
 user: `amp` 
+
 password: `letmeinnow`
