@@ -1,2 +1,4 @@
 node_modules/
 grunt/
+_syntax-highlighting.scssc
+.sass-cache
