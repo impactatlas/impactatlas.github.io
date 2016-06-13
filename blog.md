@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: blog
 title: Blog
 permalink: /blog/
 ---
 
-test
+This would be the blog:
