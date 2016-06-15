@@ -3,7 +3,17 @@
 	height: 390px;
 	width: 100%;
 }
-
+.center-vertical {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
 .logo {
 	width: 200px;
 	margin:0 auto;
