@@ -23,7 +23,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/simplegrid.css">
-
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
  </head>
 
@@ -32,7 +37,7 @@
     
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="wrapper grid">
 
     <!-- <a class="site-title" href="/">Impact Altas</a> -->
 
@@ -94,18 +99,21 @@
       </div>
     </div>
 
-    <footer class="site-footer grid">
-    <div class="col-1-1">
-        <form>
+    <footer class="site-footer back-dark">
+    <div class="footer-form">
+      <div class="grid">
+        <div class="col-1-1 color-white">
+          <form>
             <fieldset>
                 <legend>Sign up today to stay informed about use cases, impact stories, new features and more.</legend>
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="Last name">
-                <input type="text" placeholder="Organization">
-                <input type="email" placeholder="Email">
-                <button type="submit" class="pure-button button-warning">Sign in</button>
+                <input type="text" placeholder="Full name" class="back-dark">
+                <input type="text" placeholder="Organization" class="back-dark">
+                <input type="email" placeholder="Email" class="back-dark">
+                <button type="submit" class="back-coral color-white">Sign in</button>
             </fieldset>
-        </form>
+          </form>
+        </div>
+      </div>
   </div>
 
 </footer>

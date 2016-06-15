@@ -1,5 +1,5 @@
 /*--------------------
-	Homepage
+	Rotating words 
 --------------------*/
 .home-title {
 	display: inline;
@@ -60,4 +60,25 @@
 	30% { opacity: 0; -ms-transform: translateY(25px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
+}
+
+/*-----------------------
+	hero image with copy
+------------------------*/
+
+.hero-banner {
+	height: 600px;
+	width: 100%;
+}
+.title-wrapper {
+	width: 72%;
+    margin: 0 auto;
+}
+
+/*---------------------
+	key features
+--------------------*/
+
+.block-features {
+	width: 100%;
 }
