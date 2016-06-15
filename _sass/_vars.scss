@@ -39,39 +39,13 @@
   font-family: "proximanova-light";
   src: url('/assets/fonts/ProximaNova-Light.otf') format('opentype');
 }
- // @font-face {
- //  font-family: "proximanova-sbold";
- //  src: url('_assets/fonts/ProximaNova-Sbold.otf') format('opentype');
- // }
-
-
+ 
 // Font Stacks
  $stack-sans-serif		 : 'proximanova-reg', Helvetica, Arial, sans-serif; 
  $stack-sans-serif-light : 'proximanova-light', Helvetica, Arial, sans-serif; 
  //$stack-serif 		: 'Times New Roman', Times, serif;
 
-//  // Media Query Breakpoints
-//  $brk-narrow 	: '(max-width:768px)';
-//  $brk-wide 		: '(max-width:1024px)';
+ // Media Query Breakpoints
+ $brk-narrow 	: '(max-width:768px)';
+ $brk-wide 		: '(max-width:1024px)';
 
- // Asset path
- //$img_path: '/img';
-
-//  // Mixins
-//  @mixin transition($length) {
-//  	-webkit-transition: all $length ease-out;
-// 	-moz-transition: all $length ease-out;
-// 	-ms-transition: all $length ease-out;
-// 	-o-transition: all $length ease-out;
-// 	transition: all $length ease-out;
-//  }
-
-//  @mixin border-radius($radius) {
-//  	-webkit-border-radius: $radius;
-// 	-moz-border-radius: $radius;
-// 	border-radius: $radius;
-//  } 
-
-//  .center {
-//  	text-align: center;
-//  }
