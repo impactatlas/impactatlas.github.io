@@ -4,11 +4,33 @@
 // 	margin:0 auto;
 // }
 
-// section {
-// 	margin: 65px 0;
-// }
+.common-block {
+	height: 390px;
+	width: 100%;
+}
 
-// .logo {
-// 	margin:0 auto;
-// 	display:block;
-// }
+.logo {
+	width: 200px;
+	margin:0 auto;
+	display:block;
+}
+
+.back-gray {
+	background-color: $color-gray-background;
+}
+.back-dark {
+	background-color: $color-gray-dark;
+}
+.back-coral {
+	background-color: $color-coral;
+}
+.back-blue {
+	background-color: $color-blue;
+}
+.color-white, .color-white h1 {
+	color: $color-white;
+}
+.text-center {
+	text-align: center;
+}
+
