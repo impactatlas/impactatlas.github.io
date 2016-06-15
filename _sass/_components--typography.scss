@@ -1,25 +1,27 @@
+body {
+	font-family: $stack-sans-serif-light;
+}
 
-//   h1,h2,h3,h4,h5,h6,p {
-// 	margin:0;
-// 	padding:0;
-// }
+ h1,h2,h3,h4,h5,h6,p {
+	font-family: $stack-sans-serif-light;
+}
 
-// h1 {
-// 	margin-bottom: 30px;
-// 	font-size:3em;
-// 	color: $color-prim;
-// 	line-height:1;
-// 	font-family: 'proximanova-light';
-// 	text-align:center;
-// }
+h1 {
+	margin-bottom: 30px;
+	font-size: 34px;
+	color: $color-text-base;
+	text-align: center;
+}
 
-// h2 {
-// 	max-width: 480px;
-// 	margin:20px auto 0 auto;
-// 	font-size:1.5em;
-// 	font-family: 'proximanova-light';
-// }
+h2 {
+	margin: 20px auto 0 auto;
+	font-size: 20px;
+}
 
-// a {
-// 	color: $color-link-default;
-// }
+p {
+	font-size: 17px;
+}
+
+a {
+	color: $color-link-default;
+}
