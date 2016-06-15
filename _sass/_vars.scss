@@ -1,63 +1,77 @@
 // Colors
 
-// Functionnal Colors
-$color-prim         : #497133;
-// $color-sec          : 
+// Primary Colors
 
-// $color-text-light   : 
- $color-text-base    : #3c3c3c;
-// $color-text-dark    : 
+	$color-coral				: #F55353;
+	$color-blue 				: #1C8FB7;
+	$color-purple				: #5C4272;
 
-// $color-border-light : 
-// $color-border-dark  : 
+	$color-black				: #000000;
+	$color-white				: #ffffff;
 
-$color-link-default : #98b559;
-// $color-link-visited : 
+//	Gray Shades
+	
+	$color-gray-dark			: #2A2A2A;  // for background
+	$color-gray-background		: #F2F2F2;	// light gray 
+	$color-border-light			: #C5C5C5;  // gray
+	$color-border-dark			: #979797;	// gray
+	$color-gray-light			: #D8D8D8;  // for icons background
 
-// $color-shadow       : 
-// $color-body         : 
+// Copy colors and settings
+
+	$color-text-base    		: #333333;
+	$color-text-light			: #8C8C8C; 	// gray (footer)
+
+	$base-line-height			: 1.4;
+// Link colors
+
+	$color-link-default 		: #F55353; 	// coral
+//  $color-link-visited 		: 
+
+
 
 // Fonts
 @font-face {
   font-family: "proximanova-reg";
-  src: url('/fonts/ProximaNova-Reg.otf') format('opentype');
- }
+  src: url('/assets/fonts/ProximaNova-Reg.otf') format('opentype');
+}
 @font-face {
   font-family: "proximanova-light";
-  src: url('/fonts/ProximaNova-Light.otf') format('opentype');
- }
- @font-face {
-  font-family: "proximanova-sbold";
-  src: url('/fonts/ProximaNova-Sbold.otf') format('opentype');
- }
+  src: url('/assets/fonts/ProximaNova-Light.otf') format('opentype');
+}
+ // @font-face {
+ //  font-family: "proximanova-sbold";
+ //  src: url('_assets/fonts/ProximaNova-Sbold.otf') format('opentype');
+ // }
 
 
 // Font Stacks
- $stack-sans-serif	: 'proximanova-reg', Helvetica, Arial, sans-serif;
- $stack-serif 		: 'Times New Roman', Times, serif;
+ $stack-sans-serif		 : 'proximanova-reg', Helvetica, Arial, sans-serif; 
+ $stack-sans-serif-light : 'proximanova-light', Helvetica, Arial, sans-serif; 
+ //$stack-serif 		: 'Times New Roman', Times, serif;
 
- // Media Query Breakpoints
- $brk-narrow 	: '(max-width:768px)';
- $brk-wide 		: '(max-width:1024px)';
+//  // Media Query Breakpoints
+//  $brk-narrow 	: '(max-width:768px)';
+//  $brk-wide 		: '(max-width:1024px)';
 
  // Asset path
- $img_path: '/img';
+ //$img_path: '/img';
 
- // Mixins
- @mixin transition($length) {
- 	-webkit-transition: all $length ease-out;
-	-moz-transition: all $length ease-out;
-	-ms-transition: all $length ease-out;
-	-o-transition: all $length ease-out;
-	transition: all $length ease-out;
- }
+//  // Mixins
+//  @mixin transition($length) {
+//  	-webkit-transition: all $length ease-out;
+// 	-moz-transition: all $length ease-out;
+// 	-ms-transition: all $length ease-out;
+// 	-o-transition: all $length ease-out;
+// 	transition: all $length ease-out;
+//  }
 
- @mixin border-radius($radius) {
- 	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
-	border-radius: $radius;
- } 
+//  @mixin border-radius($radius) {
+//  	-webkit-border-radius: $radius;
+// 	-moz-border-radius: $radius;
+// 	border-radius: $radius;
+//  } 
 
- .center {
- 	text-align: center;
- }
+//  .center {
+//  	text-align: center;
+//  }

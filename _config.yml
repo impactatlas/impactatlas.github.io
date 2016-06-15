@@ -24,3 +24,7 @@ markdown: kramdown
 sass:
     sass_dir: _sass
     style: compressed
+
+assets:
+  sources:
+    - assets/fonts
