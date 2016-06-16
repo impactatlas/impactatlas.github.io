@@ -39,3 +39,14 @@
 	text-align: center;
 }
 
+
+
+/*---------------------
+	Mixins and extend
+---------------------*/
+%form-settings {
+	color: $color-white;
+    font-size: 15px;
+    font-family: $stack-sans-serif-light;
+}
+	

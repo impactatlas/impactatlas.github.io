@@ -22,50 +22,45 @@ dl, dd, ol, ul, figure {
         margin-bottom: 3.5%;
     }
     .mc-field-group {
-        display: inline !important;
-        min-height: 40px !important;
+        display: inline;
+        min-height: 40px;
     }
     form {
-        padding: 3.2% 5% !important;
+        padding: 3.2% 5%;
     }
     input {
-        border-radius: 2px !important;
+        border-radius: 2px;
         background-color: $color-gray-dark;
-        border: 1px solid $color-border-light !important;
-        display: inline-block !important;
-        width: 25.7% !important;
-        margin-right: 22px !important;
-        text-indent: 0 !important;
+        border: 1px solid $color-border-light;
+        display: inline-block;
+        width: 25.7%;
+        margin-right: 22px;
+        text-indent: 0;
     }
     .button {
-        border: none !important;
-        border-radius: 2px !important;
-        background-color: $color-coral !important;
-        display: inline-block !important;
-        height: 40px !important;
-        line-height: 14px !important;
-        width: 13.7% !important;
-        margin: 0 !important;
+        border: none;
+        border-radius: 2px;
+        background-color: $color-coral;
+        display: inline-block;
+        height: 40px;
+        line-height: 14px;
+        width: 13.7%;
+        margin: 0;
+        @extend %form-settings;
     }
     .clear {
-        display: inline !important;
+        display: inline;
     }
     ::-webkit-input-placeholder {
-        color: $color-white !important;
-        font-size: 15px !important;
-        font-family: $stack-sans-serif-light !important;
+        @extend %form-settings;
     }
 
     ::-moz-placeholder {
-        color: $color-white !important;
-        font-size: 15px !important;
-        font-family: $stack-sans-serif-light !important;
+        @extend %form-settings;
     }
 
     :-ms-input-placeholder {  
-       color: $color-white !important;
-       font-size: 15px !important;
-       font-family: $stack-sans-serif-light !important;
+        @extend %form-settings;
     }
 }
 footer #mc_embed_signup form {
@@ -75,7 +70,7 @@ fieldset {
     border: none;
 }
 input, button {
-    padding: 12.5px !important;
+    padding: 12.5px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
