@@ -71,15 +71,34 @@
 	width: 100%;
 	background: url(/img/hero-home.jpg);
 }
+.hero-copy {
+	margin: 5em auto;
+    width: 72%;
+}
 .title-wrapper {
 	width: 72%;
     margin: 0 auto;
 }
 .signup-form {
-	margin-top: 15em;
     z-index: 999;
+    margin-top: -6em;
     position: relative;
 }
+
+/*---------------------
+	intro block
+---------------------*/
+
+.block-intro {
+	margin-top: -6em;
+}    
+
+.copy-spacing-centered {
+	width: 80%;
+    margin: 0 auto;
+    padding: 10em 0 6em 0;
+}
+
 /*---------------------
 	key features
 --------------------*/
@@ -94,22 +113,22 @@
 	    	margin: 0 auto;
 		}
 	}
+	.icon-wrap {
+		width: 100px;
+	    height: 100px;
+	    background-color: $color-blue-dark;
+	    border-radius: 50%;
+	    margin: 25px auto;
+	}
+	.fa {
+		font-size: 45px !important;
+	}
+	.fa-dashboard, .fa-share, .fa-cloud {
+		font-size: 34px !important;
+	}
 }
 .features-wrapper {
 	max-width: 1048px !important;
-}
-.icon-wrap {
-	width: 100px;
-    height: 100px;
-    background-color: $color-blue-dark;
-    border-radius: 50%;
-    margin: 25px auto;
-}
-.fa {
-	font-size: 45px !important;
-}
-.fa-dashboard, .fa-share, .fa-cloud {
-	font-size: 34px !important;
 }
 
 

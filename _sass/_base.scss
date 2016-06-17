@@ -46,21 +46,29 @@ dl, dd, ol, ul, figure {
         line-height: 14px;
         width: 13.7%;
         margin: 0;
-        @extend %form-settings;
+        color: $color-white;
+        font-size: 15px;
+        font-family: $stack-sans-serif-light;
     }
     .clear {
         display: inline;
     }
     ::-webkit-input-placeholder {
-        @extend %form-settings;
+        color: $color-white;
+        font-size: 15px;
+        font-family: $stack-sans-serif-light;
     }
 
     ::-moz-placeholder {
-        @extend %form-settings;
+        color: $color-white;
+        font-size: 15px;
+        font-family: $stack-sans-serif-light;
     }
 
     :-ms-input-placeholder {  
-        @extend %form-settings;
+        color: $color-white;
+        font-size: 15px;
+        font-family: $stack-sans-serif-light;
     }
 }
 footer #mc_embed_signup form {

@@ -1,6 +1,6 @@
 
 .common-block {
-	height: 390px;
+	min-height: 390px;
 	width: 100%;
 }
 .center-vertical {
@@ -20,6 +20,12 @@
 	display:block;
 }
 
+.copy-spacing-left {
+	padding: 2em 2em 2em 5em;
+}
+.copy-spacing-right {
+	padding: 2em 5em 2em 2em;
+}
 .back-gray {
 	background-color: $color-gray-background;
 }
@@ -39,14 +45,4 @@
 	text-align: center;
 }
 
-
-
-/*---------------------
-	Mixins and extend
----------------------*/
-%form-settings {
-	color: $color-white;
-    font-size: 15px;
-    font-family: $stack-sans-serif-light;
-}
 	

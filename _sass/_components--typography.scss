@@ -4,17 +4,16 @@ body {
 
  h1,h2,h3,h4,h5,h6,p {
 	font-family: $stack-sans-serif-light;
+	line-height: 1.5;
 }
 
 h1 {
 	margin-bottom: 30px;
 	font-size: 34px;
 	color: $color-text-base;
-	text-align: center;
 }
 
 h2 {
-	margin: 20px auto 0 auto;
 	font-size: 20px;
 }
 
