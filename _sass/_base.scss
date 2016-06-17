@@ -1,6 +1,9 @@
 /**
  * Reset some basic elements
  */
+html, body {
+    height: 100%;
+}
 
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
@@ -14,7 +17,10 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -310px;
+}
 /* forms */
 #mc_embed_signup {
         background: $color-gray-dark;
