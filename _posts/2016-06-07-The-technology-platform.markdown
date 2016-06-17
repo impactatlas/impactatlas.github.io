@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "First post"
+title:  "The technology platform to execute and scale the best-in-class programs"
 date:   2016-06-07 10:55:14 -0700
-categories: jekyll update
+categories: [Product Stories, Amplifier]
+tags: Bangladesh
+image: 
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

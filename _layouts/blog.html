@@ -1,20 +1,58 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  {% include head.html %}
 
-{{ content }}
+  <body>
+    <div class="grid">
+      <div class="col-8-12">
+        <h1 class="page-heading">Blog</h1>
 
-  <h1 class="page-heading">News</h1>
+        <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                {% if post.image %}
+                <div class="img-blog" style="background-image: url('/img/{{ post.image }}');"></div>
+                {% endif %}
+                <ul>
+                    {% for category in post.categories %}
+                    <li>{{ category }}</li>
+                    {% endfor %}
+                </ul>
+                <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h1></a>
+                <p>{{ post.content | strip_html | truncatewords:75}}</p>
+              </li>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+            {% endfor %}
+        </ul>
+        
+      </div>
+      <div class="col-4-12">
+        <div>
+            <ul>
+                {% for category in site.categories %}
+                <li><a href="">{{ category | first }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div>
+            <ul>
+                {% for tag in site.tags %}
+                <li><a href="">{{ tag | first }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+      </div>
+      </div>
+      <div class="push"></div>
+    {% include footer.html %}
 
-</div>
+  </body>
+
+</html>
+
+
+
+
+  
+  
