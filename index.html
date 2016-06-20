@@ -132,15 +132,20 @@ layout: default
 		    </div>
         </section>
         <section class="back-gray">
-        	<div class="grid">
-        	<div class="center-vertical">
-	        	<div class="col-1-2 copy-spacing-left">
-		        	<h1></h1>
-		        	<h2></h2>
-		        	<a href="{post.link}">Read more</a><br />
-		        </div>
-	        	<div class="col-1-2 img-blog"></div>
-	        </div>
+	        	<div class="flex-container center-vertical">
+		        	<div class="col-1-2 copy-spacing-left">  
+						{% assign post = site.posts.first %}
+						{% assign content = post.content %}
+						<h1 class="entry-title">
+						{% if post.title %}
+						<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+						{% endif %}
+						</h1>
+						<p class="entry-content">{{ post.excerpt }}</p>
+			        </div>
+			        {% if post.image %}
+		        	<div class="col-1-2 img-blog" style="background-image: url('/img/{{ post.image }}');"></div>
+		        	{% endif %}
 	        </div>
         </section> 
 </body>
