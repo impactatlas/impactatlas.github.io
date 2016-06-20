@@ -2,7 +2,7 @@
 layout: post
 title:  "The technology platform to execute and scale the best-in-class programs"
 date:   2016-06-07 10:55:14 -0700
-categories: [Product Stories, Amplifier]
+categories: News
 tags: Bangladesh
 image: 
 ---

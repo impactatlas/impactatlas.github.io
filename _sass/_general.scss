@@ -3,6 +3,26 @@
 	min-height: 390px;
 	width: 100%;
 }
+.flex-container {
+	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+
+	-webkit-align-items: stretch; 
+  	align-items: stretch; 
+}
+.copy-grid {
+	max-width: 1044px;
+}
 .center-vertical {
     display: -webkit-box;
     display: -moz-box;
@@ -16,15 +36,19 @@
 }
 .logo {
 	width: 200px;
-	margin:0 auto;
-	display:block;
+	margin: 0 auto;
+	display: block;
 }
-
+.border {
+	border-bottom: 1px solid $color-white;
+    width: 5em;
+    margin: 0 auto;
+}
 .copy-spacing-left {
-	padding: 2em 2em 2em 5em;
+	padding: 5em 2em 5em 5em;
 }
 .copy-spacing-right {
-	padding: 2em 5em 2em 2em;
+	padding: 5em 5em 5em 2em;
 }
 .back-gray {
 	background-color: $color-gray-background;

@@ -21,6 +21,14 @@ dl, dd, ol, ul, figure {
     min-height: 100%;
     margin: 0 auto -310px;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+}
 /* forms */
 #mc_embed_signup {
         background: $color-gray-dark;
