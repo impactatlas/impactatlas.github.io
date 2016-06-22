@@ -68,8 +68,10 @@ layout: default
 		</section>
     	<section class="flex-container back-gray">
 			<div class="col-1-2 copy-spacing-left">
+			<div>
 	        	<h1>Thrive in the field and office</h1>
 	        	<h2>From the head office to the field, Impact Atlas can be customized to meet unique organizational needs. It tracks staff performance, creates workflows and offers actionable insights for each role and team within your organization--including field staff, field managers and project managers. Every level will experience efficiency gains and reduce costs. With Impact Atlas, celebrate success over time and make smart improvements wherever necessary.</h2>
+	        	</div>
 	        </div>
 	        <div class="col-1-2 block-img-right"></div>
        	</section>
@@ -132,21 +134,20 @@ layout: default
 		    </div>
         </section>
         <section class="back-gray">
-	        	<div class="flex-container center-vertical">
-		        	<div class="col-1-2 copy-spacing-left">  
-						{% assign post = site.posts.first %}
-						{% assign content = post.content %}
-						<h1 class="entry-title">
-						{% if post.title %}
-						<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-						{% endif %}
-						</h1>
-						<p class="entry-content">{{ post.excerpt }}</p>
-			        </div>
-			        {% if post.image %}
-		        	<div class="col-1-2 img-blog" style="background-image: url('/img/{{ post.image }}');"></div>
-		        	{% endif %}
+	        <div class="grid center-vertical">
+	        	<div class="col-1-2 copy-spacing-left">  
+					{% assign post = site.posts.first %}
+					{% assign content = post.content %}
+
+					<h1 class="entry-title">
+					{% if post.title %}
+					<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+					{% endif %}
+					</h1>
+					<p class="entry-content">{{ post.excerpt }}</p>
+		        </div>
+		        {% if post.image %}
+	        	<div class="col-1-2 img-blog" style="background-image: url('/img/{{ post.image }}');"></div>
+	        	{% endif %}
 	        </div>
         </section> 
-</body>
-<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[3]='LNAMEFNAME';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='ORG';ftypes[4]='text';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->

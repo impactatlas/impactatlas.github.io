@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+
 
   {% include head.html %}
-  {% include header-blog.html %}
-  <body>
+  {% include header.html %}
   <div id="blog">
     <div class="grid blog-content">
       <div class="col-8-12">
@@ -14,7 +15,7 @@
               <li class="post">
                 {% if post.image %}
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="img-blog" style="background-image: url('/img/{{ post.image }}');"></div></a>
+                <div class="img-post" style="background-image: url('/img/{{ post.image }}');"></div></a>
                 {% endif %}
                 <div class="blog-excerpt">
                     <ul class="category-post">
@@ -37,9 +38,20 @@
                     </div>
                     <div class="col-1-3">
                         <ul class="text-center social-icons">
-                            <li><i class="fa fa-envelope"></i></li>
-                            <li><i class="fa fa-twitter"></i></li>
-                            <li><i class="fa fa-facebook"></i></li>
+                            <a href="mailto:?&body={{ post.title }}%20{{ site.blogurl }}{{ post.url }}">
+                                <li><i class="fa fa-envelope"></i></li>
+                            </a>
+                            <!--getting hashtags for tweet-->
+                                {% assign tagStr = '' %}
+                                {% for tag in post.tags %}
+                                {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}
+                                {% endfor %}
+                            <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.blogurl }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&hashtags={{ tagStr }}" rel="nofollow" target="_blank" title="Share on Twitter">
+                                <li><i class="fa fa-twitter"></i></li>
+                            </a>
+                            <a href="https://facebook.com/sharer.php?u={{ site.blogurl }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +71,7 @@
             <ul>
                 <li class="category-active"><a href="/blog">All</a></li>
                 {% for category in site.categories %}
-                <li><a href="">{{ category | first }}</a></li>
+                <li><a href="/blog/category/{{ category | first | slugify }}/">{{ category | first }}</a></li>
                 {% endfor %}
             </ul>
         </div>
@@ -67,7 +79,7 @@
             <p class="sidebar-heading">TAGS</p>
             <ul>
                 {% for tag in site.tags %}
-                <li><a href="/tag/{{ tag | first | slugify }}/">
+                <li><a href="/blog/tag/{{ tag | first | slugify }}/">
                     <span>#</span>{{ tag[0] | replace:'-', ' ' }} 
                 </a></li>
                 {% endfor %}
@@ -76,11 +88,6 @@
       </div>
       </div>
       </div>
-    {% include footer.html %}
-
-  </body>
-
-</html>
 
 
 

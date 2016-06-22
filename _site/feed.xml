@@ -4,10 +4,10 @@
     <title>Impact Altas</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://impactatlas.com/</link>
-    <atom:link href="http://impactatlas.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jun 2016 23:07:07 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Jun 2016 23:07:07 -0700</lastBuildDate>
+    <link>http://impactatlas.org/</link>
+    <atom:link href="http://impactatlas.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 Jun 2016 10:29:33 -0700</pubDate>
+    <lastBuildDate>Wed, 22 Jun 2016 10:29:33 -0700</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -27,8 +27,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Jun 2016 10:55:14 -0700</pubDate>
-        <link>http://impactatlas.com/product%20stories/dispatch/2016/06/07/Use-case-BRAC-implements-Impact-Atlas-in-Bangladesh.html</link>
-        <guid isPermaLink="true">http://impactatlas.com/product%20stories/dispatch/2016/06/07/Use-case-BRAC-implements-Impact-Atlas-in-Bangladesh.html</guid>
+        <link>http://impactatlas.org/Use-case-BRAC-implements-Impact-Atlas-in-Bangladesh</link>
+        <guid isPermaLink="true">http://impactatlas.org/Use-case-BRAC-implements-Impact-Atlas-in-Bangladesh</guid>
         
         <category>Bangladesh</category>
         
@@ -60,8 +60,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Jun 2016 10:55:14 -0700</pubDate>
-        <link>http://impactatlas.com/news/2016/06/07/The-technology-platform.html</link>
-        <guid isPermaLink="true">http://impactatlas.com/news/2016/06/07/The-technology-platform.html</guid>
+        <link>http://impactatlas.org/The-technology-platform</link>
+        <guid isPermaLink="true">http://impactatlas.org/The-technology-platform</guid>
         
         <category>Bangladesh</category>
         
