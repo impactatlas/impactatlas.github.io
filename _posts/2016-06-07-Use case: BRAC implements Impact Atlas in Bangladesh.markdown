@@ -3,7 +3,7 @@ layout: post
 title:  "Use case: BRAC implements Impact Atlas in Bangladesh"
 date:   2016-06-07 10:55:14 -0700
 categories: [Product Stories, Dispatch]
-tags: Bangladesh Haiti Amplifier
+tags: [Bangladesh, Haiti, Amplifier]
 image: brac-ia.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

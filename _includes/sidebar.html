@@ -1,0 +1,25 @@
+<div class="col-4-12">
+    <div class="blog-intro">
+        <p class="sidebar-heading">BLOG</p>
+        <p>The Impact Atlas blog is a space to share updates, stories from the field and answer use case questions. Thanks for following along with our Journey!</p>
+    </div>
+    <div class="categories-all">
+        <p class="sidebar-heading">CATEGORIES</p>
+        <ul>
+            <li class="category-active"><a href="/blog">All</a></li>
+            {% for category in site.categories %}
+            <li><a href="/blog/category/{{ category | first | slugify }}">{{ category | first }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="tags-all">
+        <p class="sidebar-heading">TAGS</p>
+        <ul>
+            {% for tag in site.tags %}
+            <li><a href="/blog/tag/{{ tag | first | slugify }}">
+                <span>#</span>{{ tag[0] | replace:'-', ' ' }} 
+            </a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

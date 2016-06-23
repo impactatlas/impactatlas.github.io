@@ -1,16 +1,23 @@
 ---
 layout: default
----
+--- 
 
-  <div id="blog">
-    <div class="grid blog-content">
-      <div class="col-8-12">
-        <h1 class="page-heading"><a href="/blog/">Blog</a></h1>
+<div id="blog">
+<div class="grid blog-content">
+  <div class="col-8-12">
+    <h1 class="page-heading"><a href="/blog/">Blog</a></h1>
 
-        <ul class="post-list">
+    <ul class="post-list">
 
-        {% for post in site.posts %} 
+    {% for post in site.posts %} 
 
+
+        {% assign cat = page.url | remove:'/blog/category/' | remove:'/' | downcase %}
+    
+        {% for pCat in post.categories %}
+            {% assign currentCat = pCat | downcase | slugify %}
+            {% if currentCat == cat %}
+    
           <li class="post">
             {% if post.image %}
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -55,17 +62,17 @@ layout: default
                 </div>
             </div>
           </li>
-               
-            {% endfor %}
-        </ul>
-        
-      </div>
-            {% include sidebar.html %}
-      </div>
-      </div>
+                {% endif %}
+                {% endfor %}
+       	 	{% endfor %}
+    	</ul>
+    
+  		</div>
+        {% include sidebar.html %}
+	</div>
+</div>
 
 
 
 
-  
   

@@ -3,7 +3,7 @@ layout: post
 title:  "The technology platform to execute and scale the best-in-class programs"
 date:   2016-06-07 10:55:14 -0700
 categories: News
-tags: Bangladesh
+tags: [Bangladesh, NewTag]
 image: 
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

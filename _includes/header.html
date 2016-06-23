@@ -1,5 +1,5 @@
 
-<header class="{% if page.url == '/' %} site-header {% endif %} {% if page.url == '/blog/' %} blog-header {% endif %}">
+<header class="{% if page.url == '/' %} site-header {% endif %} {% if page.url contains '/blog/' %} blog-header {% endif %}">
 
 {% if page.url == "/" %}
   <div class="wrapper grid">
@@ -28,7 +28,7 @@
   </div>
 
 {% endif %}
-{% if page.url == "/blog/" %}
+{% if page.url contains "/blog/" %}
 
 <!-- <header class="blog-header">-->
   <div class="wrapper grid">

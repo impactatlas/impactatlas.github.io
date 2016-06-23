@@ -37,7 +37,9 @@ gems:
 
 jekyll-archives:
   enabled: [tags, categories]
-  layout: 'blog'
+  layouts: 
+    tag: 'tag'
+    category: 'category'
   permalinks:
     tag: 'blog/tag/:name/'
     category: 'blog/category/:name/'
