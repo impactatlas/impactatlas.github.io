@@ -21,7 +21,7 @@ facebook_page:  impactatlas
 
 # Build settings
 markdown: kramdown
-permalink: /:title
+permalink: blog/:title
 
 sass:
     sass_dir: _sass
